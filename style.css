@@ -1,0 +1,130 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+p {
+
+    margin: 0;
+}
+
+
+.containerHeader {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px;
+background-color: rgb(140, 191, 241);
+
+
+
+}
+
+.containerHeaderTelefono {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin:;
+    
+}
+.containerHeaderMail {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.containerHeaderWhatsapp {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.containerHeaderInstagram {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.containerHeaderFacebook {
+
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.textoHeader {
+
+text-decoration: none;
+color: black;
+font-size: 10px;
+
+
+}
+
+.containerHeader div a {
+
+display: flex;
+text-decoration: none;
+justify-content: center;
+
+}
+
+.telefonoMail {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+
+
+
+}
+
+.redeSociales {
+
+display: flex;
+
+}
+
+.containerHeader .containerHeaderTelefono a img {
+
+    width: 6%;
+}
+
+.containerHeader .containerHeaderMail a img {
+
+    width: 6%;
+}
+
+.containerHeader .containerHeaderWhatsapp a img {
+
+    width: 6%;
+}
+
+.containerHeader .containerHeaderInstagram a img {
+
+    width: 6%;
+}
+
+.containerHeader .containerHeaderFacebook a img {
+
+    width: 6%;
+}
+
