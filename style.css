@@ -128,3 +128,166 @@ display: flex;
     width: 6%;
 }
 
+
+.sectionPrimera {
+height: 500px;
+display: grid;
+grid-template-columns: 1fr;
+background: url(./img/imagenSeccion-1.jpg);
+background-attachment: fixed;
+background-size: cover;
+text-align: center;
+padding: 90px 150px;
+
+}
+
+.sectionPrimeraDiv {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.sectionSegunda {
+
+display: grid;
+grid-template-rows: 1fr 1fr;
+padding: 70px 100px;
+text-align: center;
+gap: 20px;
+
+}
+
+.servicios {
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+margin-top: 40px;
+
+}
+
+.servicios {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+
+}
+
+.servicios .serviciosImagen img {
+
+    width: 100%;
+    height: auto;
+}
+
+.servicios .serviciosTexto {
+
+    text-align: center;
+
+}
+
+.servicios .serviciosTexto h3 {
+
+    padding: 25px 25px;
+}
+.servicios .serviciosTexto p {
+
+    text-align: center;
+    padding: 30px 30px;
+}
+
+
+.tituloServicios {
+
+    text-align: center;
+    
+}
+
+.sectionServicios {
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 35px;
+
+}
+
+
+
+
+    
+
+
+
+/*FOOTER*/
+
+.piePagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.piePagina .grupo1 .containerFooter figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piePagina .grupo1 .containerFooter figure img{
+    width: 250px;
+}
+.piePagina .grupo1 .containerFooter h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.piePagina .grupo1 .containerFooter p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.piePagina .grupo1 .redSocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.piePagina .grupo1 .redSocial a:hover{
+    color: aqua;
+}
+.piePagina .grupo2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.piePagina .grupo2 small{
+    font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width:800px){
+    .piePagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
