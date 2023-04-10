@@ -88,9 +88,9 @@ font-size: 15px;
 .navbar-brand img {
 
     display:inline;
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
 
 }
 
@@ -114,6 +114,15 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
+}
+
+.sectionPrimeraDiv h1{
+
+font-size: 50px;
+font-weight: 900;
+margin-bottom: 20px;
+
 
 }
 
