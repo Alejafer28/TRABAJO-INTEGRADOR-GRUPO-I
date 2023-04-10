@@ -172,16 +172,20 @@ gap: 35px;
 
 }
 
-
-
-
-
-
-
-
-
+.sectionVentas .ventaEquipos {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px 400px;
     
 
+    }
+
+.textoEquipos h2 {
+
+    text-align: center;
+
+}
 
 
 /*FOOTER*/
