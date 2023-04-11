@@ -254,6 +254,31 @@ gap: 35px;
 
 }
 
+.textoContacto {
+
+
+    text-align: center;
+}
+
+.contacto {
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+
+
+
+}
+
+.contacto .imgContacto img {
+
+width: 100%;
+height: 100%;
+border-radius: 0.5rem;
+
+
+}
+
 
 /*FOOTER*/
 
